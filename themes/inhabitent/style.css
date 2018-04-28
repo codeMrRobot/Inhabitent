@@ -1,8 +1,8 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Inhabitent
 Theme URI: http://underscores.me/
-Author: RED Academy
-Author URI: http://www.redacademy.com
+Author: Tony Tran
+Author URI: http://localhost:8888/inhabitent/
 Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -225,6 +225,48 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-BoldItalic.eot");
+  src: url("../../fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../fonts/Merriweather-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-LightItalic.eot");
+  src: url("../../fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../fonts/Merriweather-LightItalic.woff") format("woff"), url("../../fonts/Merriweather-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Novecento';
+  src: url("../../fonts/cba37bc725ff0d0ff3c5501df6b4a85f.eot");
+  src: url("../../fonts/cba37bc725ff0d0ff3c5501df6b4a85f.eot?#iefix") format("embedded-opentype"), url("../../fonts/cba37bc725ff0d0ff3c5501df6b4a85f.woff2") format("woff2"), url("../../fonts/cba37bc725ff0d0ff3c5501df6b4a85f.woff") format("woff"), url("../../fonts/cba37bc725ff0d0ff3c5501df6b4a85f.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-Bold.eot");
+  src: url("../../fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Bold.woff2") format("woff2"), url("../../fonts/Merriweather-Bold.woff") format("woff"), url("../../fonts/Merriweather-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Novecento';
+  src: url("../../fonts/102ad22c1801ab9ec426bf0a1c976423.eot");
+  src: url("../../fonts/102ad22c1801ab9ec426bf0a1c976423.eot?#iefix") format("embedded-opentype"), url("../../fonts/102ad22c1801ab9ec426bf0a1c976423.woff2") format("woff2"), url("../../fonts/102ad22c1801ab9ec426bf0a1c976423.woff") format("woff"), url("../../fonts/102ad22c1801ab9ec426bf0a1c976423.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-Light.eot");
+  src: url("../../fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Light.woff2") format("woff2"), url("../../fonts/Merriweather-Light.woff") format("woff"), url("../../fonts/Merriweather-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -430,7 +472,7 @@ a {
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
+  float: right;
   width: 100%; }
   .main-navigation ul {
     display: none;
@@ -458,10 +500,15 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
-    position: relative; }
+    position: relative;
+    padding: 0 .5rem; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase; }
+    .home .main-navigation a {
+      color: white; }
 
 /* Small menu. */
 .menu-toggle,
@@ -472,7 +519,14 @@ a {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
-    display: block; } }
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -666,3 +720,40 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/* FOOTER */
+.site-footer {
+  background: url("../../images/dark-wood.png"); }
+
+.footer-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  padding-top: 2.5rem; }
+
+.footer-text {
+  color: #d99054; }
+  .footer-text h3 {
+    font-family: "Merriweather", Sans-Serif; }
+
+.footer-text p {
+  color: #ffffff; }
+
+.footer-text a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.text-logo a img {
+  width: 250px; }
+
+.social-media-icons {
+  font-size: 1.5rem; }
+
+.copyright {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  color: #ffffff; }
