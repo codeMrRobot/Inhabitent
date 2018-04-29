@@ -472,7 +472,7 @@ a {
 .main-navigation {
   clear: both;
   display: block;
-  float: right;
+  float: left;
   width: 100%; }
   .main-navigation ul {
     display: none;
@@ -750,7 +750,9 @@ object {
 
 /*  FOOTER */
 .site-footer {
-  background: url("../../images/dark-wood.png"); }
+  background: url("../../images/dark-wood.png");
+  background-size: 512px 512px;
+  color: #fff; }
 
 .footer-info-container {
   display: -webkit-box;
@@ -759,7 +761,7 @@ object {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 300px;
-  width: 100%;
+  width: 1120px;
   background-size: cover;
   padding-top: 1.5rem; }
 

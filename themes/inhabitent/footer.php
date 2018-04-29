@@ -32,10 +32,12 @@
 								<p><span class="date-bold">Saturday:</span> 10am to 2pm</p>
 								<p><span class="date-bold">Sunday:</span> Closed</p>		
 					</div>
-					<div class="text-logo">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) );?>" rel="home">
-							<img src="<?php echo get_template_directory_uri(); ?>/build/images/logos/inhabitent-logo-text.svg" alt="Green Inhabitent Logo"/>
-						</a>
+					<div class="footer-text">
+						<div class="text-logo">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) );?>" rel="home">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg" alt="Green Inhabitent Logo"/>
+							</a>
+						</div>		
 					</div>
 				</div><!-- .site-info -->
 				<div class="copyright">COPYRIGHT © 2018 INHABITENT</div>	

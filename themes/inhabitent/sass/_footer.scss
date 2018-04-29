@@ -1,13 +1,16 @@
 /*  FOOTER */
 .site-footer{
-	background:url("../../images/dark-wood.png");
+  background:url("../../images/dark-wood.png");
+  background-size: 512px 512px;
+  color:$main;
 }
+
 
 .footer-info-container{
   display:flex;
 	justify-content: space-around;
 	height:300px;
-	width:100%;
+	width:1120px;
 	background-size:cover;
 	padding-top:1.5rem;
 }
@@ -20,8 +23,9 @@
 }
 
 .footer-text p{
-	color:$main;
+  color:$main;
 }
+
 
 .date-bold{
   font-weight: bold;
@@ -40,7 +44,6 @@
   margin-bottom: .75rem;
   text-transform: uppercase;
 }
-
 
 .text-logo a{
 	img{
