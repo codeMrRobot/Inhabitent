@@ -748,7 +748,7 @@ object {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-/* FOOTER */
+/*  FOOTER */
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 
@@ -761,19 +761,29 @@ object {
   height: 300px;
   width: 100%;
   background-size: cover;
-  padding-top: 2.5rem; }
+  padding-top: 1.5rem; }
 
 .footer-text {
   color: #d99054; }
   .footer-text h3 {
-    font-family: "Merriweather", Sans-Serif; }
+    font-family: "Novecento", Sans-Serif; }
 
 .footer-text p {
-  color: #ffffff; }
+  color: #fff; }
+
+.date-bold {
+  font-weight: bold; }
 
 .footer-text a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none; }
+
+.footer-text h3 {
+  color: #d99054;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin-bottom: .75rem;
+  text-transform: uppercase; }
 
 .text-logo a img {
   width: 250px; }
@@ -782,6 +792,8 @@ object {
   font-size: 1.5rem; }
 
 .copyright {
+  font-family: "Novecento", Sans-Serif;
   text-align: center;
   padding-bottom: 1.5rem;
-  color: #ffffff; }
+  color: #fff;
+  text-transform: uppercase; }

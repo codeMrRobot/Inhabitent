@@ -1,4 +1,4 @@
-/* FOOTER */
+/*  FOOTER */
 .site-footer{
 	background:url("../../images/dark-wood.png");
 }
@@ -9,24 +9,38 @@
 	height:300px;
 	width:100%;
 	background-size:cover;
-	padding-top:2.5rem;
+	padding-top:1.5rem;
 }
 
 .footer-text{
-	color:#d99054;
+	color:$orange;
 	h3{
-		font-family:"Merriweather", Sans-Serif;
+		font-family:$headfont;
 	}
 }
 
 .footer-text p{
-	color:#ffffff;
+	color:$main;
+}
+
+.date-bold{
+  font-weight: bold;
 }
 
 .footer-text a{
-	color:#ffffff;
+	color:$main;
 	text-decoration: none;
 }
+
+.footer-text h3{
+
+  color:$orange;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin-bottom: .75rem;
+  text-transform: uppercase;
+}
+
 
 .text-logo a{
 	img{
@@ -39,7 +53,9 @@
 }
 
 .copyright{
+font-family:$headfont;
 text-align: center;
 padding-bottom:1.5rem;
-color:#ffffff;
+color:$main;
+text-transform: uppercase;
 }
