@@ -3,3 +3,36 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+/* FRONT PAGE */
+.home,.page-template-about{
+  .content-area{
+    padding-left:0;
+  }
+}  
+
+
+.home{
+  
+	.content-area{
+    width: 100%;
+    padding-right:0;
+  }
+
+  .site-main{
+    .hero-banner{
+      background:linear-gradient(to bottom, rgba($color_black, 0.2), rgba($color_black, 0.2)), url("../../images/home-hero.jpg")no-repeat top;
+      width:100%;
+      height:100vh;
+      background-size:cover,cover;
+      display: flex;
+      justify-content: center;
+    }
+    h2{
+      font-family:$headfont;
+      text-align:center;
+      font-size:2rem;
+      padding-top:1rem;
+      padding-bottom:1rem;
+    } 
+  }
+}  
