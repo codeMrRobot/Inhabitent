@@ -12,7 +12,7 @@ get_header(); ?>
           <div class="container">
             <?php the_title ( '<h1 class="entry-title">', '</h1>' ); ?>
           </div>
-        </header>
+        </header
 
         <div class="container">
           <div class="entry-content">
