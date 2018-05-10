@@ -481,7 +481,6 @@ a {
   position: fixed;
   padding-top: 1rem;
   border-bottom: solid #EEE 1px;
-  background-color: rgba(255, 255, 255, 0.85);
   z-index: 3; }
   .home .site-header .header-container {
     display: -webkit-box;
@@ -780,6 +779,13 @@ object {
 
 .footer-text p {
   color: #fff; }
+
+.text-logo {
+  margin-top: 1rem;
+  text-align: right; }
+
+.text-logo img {
+  max-width: 50%; }
 
 .date-bold {
   font-weight: bold; }
