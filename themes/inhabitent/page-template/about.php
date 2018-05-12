@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About  Page
+ * Template Name: about
  *
  * @package RED_Starter_Theme
  */
