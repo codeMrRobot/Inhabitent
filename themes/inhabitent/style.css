@@ -476,13 +476,13 @@ a {
     color: #248A83;
     padding-top: 7px; }
 
-.home .site-header {
+.hfeed .site-header {
   width: 100%;
   position: fixed;
   padding-top: 1rem;
   border-bottom: solid #EEE 1px;
   z-index: 3; }
-  .home .site-header .header-container {
+  .hfeed .site-header .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -493,7 +493,7 @@ a {
     padding-right: 5%;
     font-family: "Novecento", Sans-Serif;
     width: 1120px; }
-  .home .site-header .site-branding a img {
+  .hfeed .site-header .site-branding a img {
     height: 35px; }
 
 .reverse-header {
