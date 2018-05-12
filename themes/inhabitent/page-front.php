@@ -1,4 +1,7 @@
-<?php
+<?php 
+/*
+Template name: home
+*/
 /**
  *front page (home page) template file.
  *
