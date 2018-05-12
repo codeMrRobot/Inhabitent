@@ -11,7 +11,43 @@
 	}
 }
 
+.widget-area{
+	padding-top:5rem;
+	width: 25%;
+	padding-left: 5%;
+	border-left: #eee solid 1px;
+}
+.widget-title{
+	font-family:$headfont;
+}
+
+
 /* Search widget. */
 .widget_search .search-submit {
 	display: none;
+}
+
+.widget_archive{
+	ul{
+		list-style-type: none;
+		padding:0;
+		margin:0;
+		li a{
+			text-decoration: none;
+			color:$green;
+		}
+	}
+}
+
+.contact-meta a{
+	text-decoration: none;
+	color:$green;
+}
+
+.textwidget{
+	.contact-meta{
+		.fa{
+			padding-right:0.5rem;
+		}
+	}
 }

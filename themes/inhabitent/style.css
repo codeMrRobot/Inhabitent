@@ -621,9 +621,33 @@ a {
   .widget select {
     max-width: 100%; }
 
+.widget-area {
+  padding-top: 5rem;
+  width: 25%;
+  padding-left: 5%;
+  border-left: #eee solid 1px; }
+
+.widget-title {
+  font-family: "Novecento", Sans-Serif; }
+
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
+
+.widget_archive ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .widget_archive ul li a {
+    text-decoration: none;
+    color: #248A83; }
+
+.contact-meta a {
+  text-decoration: none;
+  color: #248A83; }
+
+.textwidget .contact-meta .fa {
+  padding-right: 0.5rem; }
 
 /*--------------------------------------------------------------
 # Content

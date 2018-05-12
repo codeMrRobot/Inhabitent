@@ -8,12 +8,25 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<?php if ( is_home() && ! is_front_page() ) : ?>
+    
+
+
+      <?php
+   $args = array( 'numberposts' => '3', 'order' => 'DESC');
+   $journal_posts = get_posts( $args );
+    // returns an array of posts
+?>
+<?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
+   <?php echo '<h2>' . get_the_title() . '</h2>'; ?>
+   <?php echo the_post_thumbnail( 'medium' ); ?>
+<?php endforeach; wp_reset_postdata(); ?>
+   
+  
+    
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title();  ?></h1>
 				</header>
-			<?php endif; ?>
-			<div class="hero-banner">
+	    <div class="hero-banner">
 				<img src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-full.svg" ?> >
       </div>	
       
