@@ -682,6 +682,28 @@ a {
 .bypostauthor {
   display: block; }
 
+.single-post h1.entry-title {
+  position: absolute;
+  top: 10%;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  max-width: 75%;
+  color: #fff;
+  font-family: "Novecento", Sans-Serif; }
+
+.single-post .comments-link a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1rem; }
+
+.single-post .entry-footer .cat-links {
+  padding-right: 1rem; }
+
+.single-post .entry-footer a {
+  text-decoration: none;
+  color: #248A83; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -842,18 +864,18 @@ object {
   .page-template-page-about div#content.site-content div#secondary.widget-area {
     display: none; }
 
-#post-35 {
+.post-35 {
   width: 100vw; }
-  #post-35 .entry-content {
+  .post-35 .entry-content {
     width: 850px;
     padding-bottom: 1rem;
     margin-left: auto;
     margin-right: auto; }
-    #post-35 .entry-content h2 {
+    .post-35 .entry-content h2 {
       font-family: "Novecento", Sans-Serif;
       text-align: center;
       font-size: 2.5rem; }
-  #post-35 .entry-header {
+  .post-35 .entry-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -866,7 +888,7 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    #post-35 .entry-header .entry-title {
+    .post-35 .entry-header .entry-title {
       font-family: "Novecento", Sans-Serif;
       text-transform: uppercase;
       font-size: 3rem;

@@ -55,18 +55,7 @@ get_header(); ?>
 
 
 
-    <section>
-    <?php
-        $args = array( 'numberposts' => '3', 'order' => 'DESC');
-        $product_posts = get_posts($args);
-        $thumbnail = array('large');
-    
-    ?>
-    <?php foreach ($product_posts as $post): setup_postdata ( $post) ?>
-                        <?php the_post_thumbnail('medium')?>
-                        <a href="<?php the_permalink();?>">link</a>
-    <?php endforeach; wp_reset_postdata();?>
-    </section>
+
 
 
 
