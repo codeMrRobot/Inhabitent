@@ -2,10 +2,33 @@
 # Content
 --------------------------------------------------------------*/
 
-/* Posts and pages */
+/* Single-Posts and Journal-Pages */
+
+.site-content{
+	display:flex;
+	@include center();
+}
+
+.content-area{
+	width:75%;
+	padding-right:5%;
+}
+
+.hfeed{
+	display:flex;
+}
 
 .sticky {
 	display: block;
+}
+
+.entry-meta{
+	position: absolute;
+	right: 0;
+	bottom: 1%;
+	background-color:$green;
+	color:$main;
+	padding:0.5rem;
 }
 
 .hentry {
@@ -48,6 +71,16 @@
 	display: block;
 }
 
+.entry-header {
+	font-family:$headfont;
+	position:relative;
+	img{
+		width:100%;
+	}
+	.price{
+		font-size:2rem;
+	}
+}
 
 .single-post{
 
@@ -78,4 +111,14 @@
 		color:$green;
 	}
 
+}
+
+
+
+
+/* Find Us */
+.page-id-38{
+	.site-main{
+		padding-top: 10%;
+	}
 }
