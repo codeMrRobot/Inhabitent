@@ -53,24 +53,32 @@ get_header(); ?>
         <?php endif; ?>
     </section>
 
+<?php /* journal entry loop */?>
+			<div class="max-contain">
+			<h2>inhabitant journal</h2>
+			<?php
+			$args = array( 'numberposts' => '3', 'order' => 'DESC');
+			$product_posts = get_posts( $args );
+			$thumbnail = array( 'large' );?>
+			
+				<section class="journal-wrapper">
+					<div class="journal-entries">			
+					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );?>
+					<article class="journal-entry">
+					<?php the_post_thumbnail( 'medium' ); ?>
+						<div class="journal-info">
+								<a href="<?php the_permalink(); ?>" class="read-more">Read Entry</a>
+							<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+							<div class="journal-date">
+							<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+	  			 	</div>
+					</div>
+					</article>
+					<?php endforeach; wp_reset_postdata(); ?>
+					</div>				
+				</section>
+			</div>
 
-    <!-- journal entry -->
-    <section>
-    <?php
-        $args = array( 'numberposts' => '3', 'order' => 'DESC');
-        $product_posts = get_posts($args);
-        $thumbnail = array('large');
-    
-    ?>
-
-    <div class="journal-entries">
-    <?php foreach ($product_posts as $post): setup_postdata ( $post) ?>
-                        <article class="journal-entry">
-                        <?php the_post_thumbnail('medium')?>
-
-                        <a href="<?php the_permalink();?>"class="read-more">Read Entry</a>
-    <?php endforeach; wp_reset_postdata();?>
-    </section>
 
 
 
