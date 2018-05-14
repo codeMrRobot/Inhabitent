@@ -54,7 +54,7 @@ get_header(); ?>
     </section>
 
 
-
+    <!-- journal entry -->
     <section>
     <?php
         $args = array( 'numberposts' => '3', 'order' => 'DESC');
@@ -62,9 +62,13 @@ get_header(); ?>
         $thumbnail = array('large');
     
     ?>
+
+    <div class="journal-entries">
     <?php foreach ($product_posts as $post): setup_postdata ( $post) ?>
+                        <article class="journal-entry">
                         <?php the_post_thumbnail('medium')?>
-                        <a href="<?php the_permalink();?>">link</a>
+
+                        <a href="<?php the_permalink();?>"class="read-more">Read Entry</a>
     <?php endforeach; wp_reset_postdata();?>
     </section>
 
