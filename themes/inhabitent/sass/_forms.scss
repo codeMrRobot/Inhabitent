@@ -8,20 +8,20 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
+	background:$green;
+	color:$main;
+	font-size:1rem;
+	font-weight:400;
+	border-radius:unset;
+	font-family:$headfont;
+	text-transform: uppercase;
 	@include font-size(0.75);
 	line-height: 1;
-	padding: .6rem 1rem .4rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	padding: .75rem 1.5rem;
 
+	
 	&:hover {
-		border-color: #ccc #bbb #aaa;
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+		
 	}
 
 	&:active,
@@ -60,3 +60,8 @@ textarea {
 	padding-left: 3px;
 	width: 100%;
 }
+
+input{
+  outline:none;
+}
+
