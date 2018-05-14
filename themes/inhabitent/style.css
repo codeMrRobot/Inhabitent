@@ -832,3 +832,26 @@ object {
   padding-bottom: 1.5rem;
   color: #fff;
   text-transform: uppercase; }
+
+.page-template-page-about #post-35 {
+  background: red; }
+
+.page-template-page-about .site-header {
+  width: 100%;
+  position: fixed;
+  padding-top: 1rem;
+  border-bottom: solid #EEE 1px;
+  z-index: 3; }
+  .page-template-page-about .site-header .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Novecento", Sans-Serif;
+    width: 1120px; }
+  .page-template-page-about .site-header .site-branding a img {
+    height: 35px; }
