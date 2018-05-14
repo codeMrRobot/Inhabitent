@@ -833,25 +833,43 @@ object {
   color: #fff;
   text-transform: uppercase; }
 
-.page-template-page-about #post-35 {
-  background: red; }
+.page-template-page-about div#content.site-content {
+  margin-left: 0;
+  margin-right: 0; }
+  .page-template-page-about div#content.site-content div#primary.content-area {
+    width: 100%;
+    padding-right: 0; }
+  .page-template-page-about div#content.site-content div#secondary.widget-area {
+    display: none; }
 
-.page-template-page-about .site-header {
-  width: 100%;
-  position: fixed;
-  padding-top: 1rem;
-  border-bottom: solid #EEE 1px;
-  z-index: 3; }
-  .page-template-page-about .site-header .header-container {
+#post-35 {
+  width: 100vw; }
+  #post-35 .entry-content {
+    width: 850px;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto; }
+    #post-35 .entry-content h2 {
+      font-family: "Novecento", Sans-Serif;
+      text-align: center;
+      font-size: 2.5rem; }
+  #post-35 .entry-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: "Novecento", Sans-Serif;
-    width: 1120px; }
-  .page-template-page-about .site-header .site-branding a img {
-    height: 35px; }
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #post-35 .entry-header .entry-title {
+      font-family: "Novecento", Sans-Serif;
+      text-transform: uppercase;
+      font-size: 3rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff; }
