@@ -3,8 +3,15 @@
 --------------------------------------------------------------*/
 
 /* Front page */
-/* FRONT PAGE */
-.home,.page-template-about{
+
+.max-contain {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.home,.page-template-page-about{
   .content-area{
     padding-left:0;
   }
@@ -35,4 +42,78 @@
       padding-bottom:1rem;
     } 
   }
+}
+
+.journal-entries{
+  display:flex;
+  justify-content:space-between;
+  .journal-entry{
+    border:1px solid $lightgrey;
+    img{
+      height:250px;
+      width:360px;
+      border-bottom:5px solid $lightgrey;
+    }
+  }  
 }  
+.journal-info{
+display: flex;
+flex-direction: column-reverse;
+align-items: flex-start;
+width:300px;
+padding:.75rem;
+  .entry-title{
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align:left;
+    a{
+      color:$green;
+      text-decoration: none;
+    }
+  }
+  .journal-date{
+    font-size:0.75rem;
+  }
+}    
+.product-type-blocks{
+  font-size:0.95rem;
+  display:flex;
+  justify-content: space-between;
+  text-align:center;
+}
+.product-type-block-wrapper{
+  flex-basis:23.5%;
+  max-width:23.5%;
+  border:1px solid $lightgrey;
+  border-top-width: 5px;
+  padding:1rem;
+  img{
+    height:65px; 
+  }
+  a.btn{
+    font-family:$headfont;
+    background:$green;
+    color:$main;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: .75rem 1.5rem;
+  }
+}
+.product-type-block-wrapper:hover
+{
+  border:1px solid $orange; 
+  border-top-width:5px;
+}
+
+.read-more{
+color:black;
+text-transform: uppercase;
+border:1px solid black;
+text-decoration:none;
+padding: .75rem 1.5rem;
+font-family:$headfont;
+}
+a:visited{
+color:black;
+}
