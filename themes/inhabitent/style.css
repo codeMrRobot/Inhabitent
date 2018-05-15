@@ -1028,6 +1028,10 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     height: 100vh;
     text-align: center;
     width: 100vw;
