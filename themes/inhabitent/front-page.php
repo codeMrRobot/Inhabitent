@@ -25,6 +25,7 @@ get_header(); ?>
     <div class="hero-banner">
       <img src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-full.svg" ?> >
     </div>
+  </main>
 
     <section class="product-info container max-contain">
       <h2>shop stuff</h2>
