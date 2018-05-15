@@ -659,6 +659,22 @@ a {
   width: 75%;
   padding-right: 5%; }
 
+.archive .entry-title {
+  position: absolute;
+  top: 0;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2rem;
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .archive .entry-title a {
+    color: #fff;
+    text-decoration: none; }
+
+.page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
+  padding-left: 5%; }
+
 .hfeed {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,6 +990,15 @@ a:visited {
   padding-bottom: 1.5rem;
   color: #fff;
   text-transform: uppercase; }
+
+.page-id-35 div#content.site-content {
+  margin-left: 0;
+  margin-right: 0; }
+  .page-id-35 div#content.site-content div#primary.content-area {
+    width: 100%;
+    padding-right: 0; }
+  .page-id-35 div#content.site-content div#secondary.widget-area {
+    display: none; }
 
 .post-35 {
   width: 100vw; }
