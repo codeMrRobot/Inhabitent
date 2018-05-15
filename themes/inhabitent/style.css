@@ -675,11 +675,6 @@ a {
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
   padding-left: 5%; }
 
-.hfeed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 .sticky {
   display: block; }
 
@@ -751,6 +746,24 @@ a {
 .single-post .entry-footer a {
   text-decoration: none;
   color: #248A83; }
+
+.blog .read-more-wrapper {
+  padding-bottom: 2rem; }
+
+.blog .entry-header h2.entry-title {
+  top: 0;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute; }
+
+.blog .entry-header a {
+  font-family: "Novecento", Sans-Serif;
+  color: #fff;
+  text-decoration: none; }
 
 /* Find Us */
 .page-id-38 .site-main {
