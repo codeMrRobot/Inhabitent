@@ -975,15 +975,6 @@ a:visited {
   color: #fff;
   text-transform: uppercase; }
 
-.page-template-page-about div#content.site-content {
-  margin-left: 0;
-  margin-right: 0; }
-  .page-template-page-about div#content.site-content div#primary.content-area {
-    width: 100%;
-    padding-right: 0; }
-  .page-template-page-about div#content.site-content div#secondary.widget-area {
-    display: none; }
-
 .post-35 {
   width: 100vw; }
   .post-35 .entry-content {
