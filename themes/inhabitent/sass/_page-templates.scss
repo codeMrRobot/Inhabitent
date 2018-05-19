@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-
+t
 /* Front page */
 
 .max-contain {
@@ -34,7 +34,7 @@
       display: flex;
       justify-content: center;
     }
-    h2{
+    .home h2{
       font-family:$headfont;
       text-align:center;
       font-size:2rem;
@@ -43,6 +43,7 @@
     } 
   }
 }
+
 
 .journal-entries{
   display:flex;

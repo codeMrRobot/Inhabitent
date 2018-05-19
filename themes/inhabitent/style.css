@@ -479,7 +479,8 @@ a {
   -webkit-transition: top .5s linear;
   transition: top .5s linear;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  background-color: transparent; }
   .hfeed .site-header .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -489,15 +490,9 @@ a {
             justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: "Novecento", Sans-Serif;
-    width: 1120px; }
+    font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
-
-.hfeed, .site-header, .reverse-header {
-  background-color: transparent;
-  border-bottom: 0;
-  position: absolute; }
 
 .main-navigation {
   display: -webkit-box;
@@ -865,7 +860,7 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-/* Front page */
+t
 .max-contain {
   max-width: 1120px;
   margin-left: auto;
@@ -891,7 +886,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.home .site-main h2 {
+.home .site-main .home h2 {
   font-family: "Novecento", Sans-Serif;
   text-align: center;
   font-size: 2rem;

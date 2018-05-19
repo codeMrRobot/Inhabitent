@@ -10,17 +10,17 @@ get_header(); ?>
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header custom-hero">
           <div class="container">
-            <?php get_the_content( '<h1 class="entry-title">', '</h1>' ); ?>
+            <?php get_the_title( '<h1 class="entry-title">', '</h1>' ); ?>
           </div>
         </header>
 
         <div class="container">
           <div class="entry-content">
             <h2>Our Story</h2>
-            <?php echo CFS()->get( 'our_story' );?>
+            <?php echo CFS()->get( 'our_Story' );?>
             
             <h2>Our Team</h2>
-            <?php echo CFS()->get( 'our_team' );?>
+            <?php echo CFS()->get( 'our_Team' );?>
           </div>     
         </div>
       </article>

@@ -39,15 +39,16 @@ a {
     position: fixed;
     transition: top .5s linear;
     width: 100%;
-    z-index: 3;
+		z-index: 3;
+		background-color: transparent;
 			.header-container{
 				display: flex;
 				justify-content: space-between;
 				padding-left:5%;
 				padding-right:5%;
 				font-family:$headfont;
-				width: 1120px;
 			}
+			
 			.site-branding{
 				a img{
 				height:35px;
@@ -56,11 +57,11 @@ a {
 	}
 }
 
-.hfeed,.site-header,.reverse-header {
-	background-color: transparent;
-	border-bottom: 0;
-  position: absolute;
-}
+// .site-header,.reverse-header {
+// 	background-color: transparent;
+	
+// }
+
 	
 
 .main-navigation {
