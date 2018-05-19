@@ -679,10 +679,24 @@ a {
   margin-bottom: 1.5rem; }
   .archive-product-content .item-grid {
     border: 1px solid #e1e1e1; }
-    .archive-product-content .item-grid .container {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1120px; }
+
+.tax-product-type .page-header {
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem;
+  text-align: center; }
+
+.taxonomy-description {
+  margin: 2rem auto 3rem;
+  max-width: 800px; }
+
+.content-area {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
   padding-left: 5%; }

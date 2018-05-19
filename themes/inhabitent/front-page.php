@@ -39,6 +39,7 @@ get_header(); ?>
         <div class="product-type-blocks">
           <?php foreach ( $terms as $term ) : ?>
           <div class="product-type-block-wrapper">
+          
             <img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>"
             />
             <p>
