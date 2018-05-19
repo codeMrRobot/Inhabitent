@@ -27,7 +27,10 @@ get_header(); ?>
 						<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a></p>
 					<?php endforeach; ?>
 					</div>
-				</div>
+        </div>
+        
+       
+
 			<?php endif; ?>
 			</header>
 			<div class="archive-product-content">

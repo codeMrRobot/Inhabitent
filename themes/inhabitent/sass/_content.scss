@@ -30,6 +30,23 @@
 		}
 	}
 }
+//TAXONOMY PRODUCTS
+
+
+.archive-product-content{
+	display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5rem;
+		margin-bottom: 1.5rem;
+		.item-grid{
+			border: 1px solid #e1e1e1;
+			.container{
+				margin-left: auto;
+					margin-right: auto;
+					width: 1120px;
+			}
+	}
+}
 
 .page,.single,.blog,.archive{
 	.content-area{
@@ -106,6 +123,7 @@
 	h1.entry-title{
 		position: absolute;
 		top:10%;
+		color:#d99054;
 		background-color: $green;
 		margin-top:2rem;
 		font-size:2.0rem;
@@ -157,10 +175,12 @@
 
 
 
-
 /* Find Us */
 .page-id-38{
 	.site-main{
 		padding-top: 10%;
 	}
 }
+
+
+

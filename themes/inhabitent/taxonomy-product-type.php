@@ -8,7 +8,8 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<?php if ( have_posts() ) : ?>
+    <?php if ( have_posts() ) : ?>
+    <div class ="container">
 			<header class="page-header">
 				<?php
 					single_term_title( '<h1 class="tax-page-title">', '</h1>' );

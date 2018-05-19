@@ -672,6 +672,18 @@ a {
     color: #fff;
     text-decoration: none; }
 
+.archive-product-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem; }
+  .archive-product-content .item-grid {
+    border: 1px solid #e1e1e1; }
+    .archive-product-content .item-grid .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 1120px; }
+
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
   padding-left: 5%; }
 
@@ -728,6 +740,7 @@ a {
 .single-post h1.entry-title {
   position: absolute;
   top: 10%;
+  color: #d99054;
   background-color: #248A83;
   margin-top: 2rem;
   font-size: 2.0rem;

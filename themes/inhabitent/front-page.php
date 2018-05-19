@@ -58,7 +58,7 @@ get_header(); ?>
 			<div class="max-contain">
 			<h2>inhabitant journal</h2>
 			<?php
-			$args = array( 'numberposts' => '3', 'order' => 'DESC');
+			$args = array( 'numberposts' => '3', 'order' => 'ASC');
 			$product_posts = get_posts( $args );
 			$thumbnail = array( 'large' );?>
 			
