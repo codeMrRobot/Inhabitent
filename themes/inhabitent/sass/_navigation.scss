@@ -33,11 +33,13 @@ a {
 }
 .hfeed{	
 	.site-header{
-		width:100%;
-		position:	fixed;
-		padding-top:1rem;
-		border-bottom: solid #EEE 1px;
-		z-index:3; 
+		background-color: hsla(0,0%,100%,.85);
+    border-bottom: 1px solid #e1e1e1;
+    padding: .5rem 0;
+    position: fixed;
+    transition: top .5s linear;
+    width: 100%;
+    z-index: 3;
 			.header-container{
 				display: flex;
 				justify-content: space-between;
@@ -54,8 +56,10 @@ a {
 	}
 }
 
-.reverse-header {
+.hfeed,.site-header,.reverse-header {
 	background-color: transparent;
+	border-bottom: 0;
+  position: absolute;
 }
 	
 
