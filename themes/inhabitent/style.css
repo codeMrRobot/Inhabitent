@@ -752,26 +752,18 @@ a {
   .entry-header .price {
     font-size: 2rem; }
 
-.single-post h1.entry-title {
-  position: absolute;
-  top: 10%;
-  color: #d99054;
-  background-color: #248A83;
-  margin-top: 2rem;
-  font-size: 2.0rem;
-  max-width: 75%;
-  color: #fff;
-  font-family: "Novecento", Sans-Serif; }
+.single-product h1.entry-title {
+  color: #d99054; }
 
-.single-post .comments-link a {
+.single-product .comments-link a {
   text-decoration: none;
   color: #fff;
   padding-left: 1rem; }
 
-.single-post .entry-footer .cat-links {
+.single-product .entry-footer .cat-links {
   padding-right: 1rem; }
 
-.single-post .entry-footer a {
+.single-product .entry-footer a {
   text-decoration: none;
   color: #248A83; }
 
@@ -886,7 +878,7 @@ t
       -ms-flex-pack: center;
           justify-content: center; }
 
-.home .site-main .home h2 {
+.home .site-main h2 {
   font-family: "Novecento", Sans-Serif;
   text-align: center;
   font-size: 2rem;
