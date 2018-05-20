@@ -667,6 +667,143 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Single Posts and Journal Page */
+.site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
+
+.content-area {
+  width: 75%;
+  padding-right: 5%; }
+
+.archive .entry-title {
+  position: absolute;
+  top: 0;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2rem;
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .archive .entry-title a {
+    color: #fff;
+    text-decoration: none; }
+
+.page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
+  padding-left: 5%; }
+
+.hfeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sticky {
+  display: block; }
+
+.entry-header {
+  font-family: "Novecento", Sans-Serif;
+  position: relative; }
+  .entry-header img {
+    width: 100%; }
+  .entry-header .price {
+    font-size: 2rem; }
+
+.single-post h1.entry-title {
+  position: absolute;
+  top: 10%;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  max-width: 75%;
+  color: #fff;
+  font-family: "Novecento", Sans-Serif; }
+
+.single-post .comments-link a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1rem; }
+
+.single-post .entry-footer .cat-links {
+  padding-right: 1rem; }
+
+.single-post .entry-footer a {
+  text-decoration: none;
+  color: #248A83; }
+
+.blog .read-more-wrapper {
+  padding-bottom: 2rem; }
+
+.blog .entry-header h2.entry-title {
+  top: 0;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute; }
+
+.blog .entry-header a {
+  font-family: "Novecento", Sans-Serif;
+  color: #fff;
+  text-decoration: none; }
+
+.entry-meta {
+  position: absolute;
+  right: 0;
+  bottom: 1%;
+  background-color: #248A83;
+  color: #fff;
+  padding: 0.5rem; }
+
+.hentry {
+  margin: 0 0 1.5rem; }
+
+.updated:not(.published) {
+  display: none; }
+
+.single .byline,
+.group-blog .byline {
+  display: inline; }
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5rem 0 0; }
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5rem; }
+
+/* Asides */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none; }
+
+/* Comments */
+.comment-content a {
+  word-wrap: break-word; }
+
+.bypostauthor {
+  display: block; }
+
+.blog .post-140 {
+  padding-top: 15%; }
+
+.single-post .post-140 {
+  padding-top: 15%; }
+  .single-post .post-140 .entry-title {
+    top: 0; }
+
+.single-format-standard .social-buttons .fa:before {
+  padding-right: 0.5rem; }
+
+/* Find us */
+.page-id-38 .site-main {
+  padding-top: 10%; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/

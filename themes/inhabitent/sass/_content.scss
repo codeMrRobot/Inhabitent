@@ -4,7 +4,186 @@
 
 /* Single Posts and Journal Page */
 
+.site-content{
+	display:flex;
+	@include center();
+}
 
+.content-area{
+	width:75%;
+	padding-right:5%;
+}
+
+.archive{
+	.entry-title{
+		position: absolute;
+    top: 0;
+    background-color: $green;
+    margin-top: 2rem;
+    font-size: 2rem;
+		max-width: 75%;
+		padding-left:1rem;
+		padding-right:1rem;	
+		a{
+			color:$main;
+			text-decoration: none;
+		}
+	}
+}
+
+.page,.single,.blog,.archive{
+	.content-area{
+		padding-left:5%;
+	}
+}
+.hfeed{
+	display:flex;
+}
+
+.sticky {
+	display: block;
+}
+
+.entry-header {
+	font-family:$headfont;
+	position:relative;
+	img{
+		width:100%;
+	}
+	.price{
+		font-size:2rem;
+	}
+}
+
+.single-post{
+	h1.entry-title{
+		position: absolute;
+		top:10%;
+		background-color: $green;
+		margin-top:2rem;
+		font-size:2.0rem;
+		max-width:75%;
+		color:$main;
+		font-family:$headfont;
+	}
+	.comments-link{
+		a{
+			text-decoration: none;
+			color:$main;
+			padding-left:1rem;
+		}
+	}
+	.entry-footer {
+	.cat-links{
+		padding-right:1rem;
+			}
+	}
+	.entry-footer a{
+		text-decoration: none;
+		color:$green;
+	}
+}
+
+.blog{
+	.read-more-wrapper{
+		padding-bottom:2rem;
+	}
+	.entry-header{
+		h2.entry-title{
+			top:0;
+			background-color: $green;
+			margin-top:2rem;
+			font-size:2.0rem;
+			max-width:75%;
+			padding-left:1rem;
+			padding-right:1rem;	
+			position: absolute;
+		}
+		a{
+			font-family:$headfont;
+			color:#fff;
+			text-decoration:none;
+		}
+ }
+}	
+
+.entry-meta{
+	position: absolute;
+	right: 0;
+	bottom: 1%;
+	background-color:$green;
+	color:$main;
+	padding:0.5rem;
+}
+
+.hentry {
+	margin: 0 0 $base__space-unit;
+}
+
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $base__space-unit 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $base__space-unit;
+}
+
+/* Asides */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/* Comments */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.blog{
+	.post-140{
+	padding-top:15%;
+	}
+}
+
+.single-post{
+	.post-140{
+		padding-top:15%;
+			.entry-title{
+				top:0;
+			}
+	}
+}
+
+.single-format-standard{
+	.social-buttons{
+		.fa:before{
+			padding-right:0.5rem;
+		}
+	}
+}
+
+/* Find us */
+.page-id-38{
+	.site-main{
+		padding-top: 10%;
+	}
+}
 
 
 
