@@ -1223,24 +1223,24 @@ a:visited {
     text-transform: uppercase; }
 
 /* Taxonomy product page */
-.tax-product-type .content-area {
+.term-wear .content-area, .term-eat .content-area, .term-do .content-area, .term-sleep .content-area {
   width: 100%; }
 
-.tax-product-type .page-header {
+.term-wear .page-header, .term-eat .page-header, .term-do .page-header, .term-sleep .page-header {
   text-align: center;
   border-bottom: 1px dashed #e1e1e1; }
 
-.tax-product-type .tax-page-title {
+.term-wear .tax-page-title, .term-eat .tax-page-title, .term-do .tax-page-title, .term-sleep .tax-page-title {
   text-transform: uppercase;
   font-family: "Novecento", Sans-Serif; }
 
-.tax-product-type .taxonomy-description {
+.term-wear .taxonomy-description, .term-eat .taxonomy-description, .term-do .taxonomy-description, .term-sleep .taxonomy-description {
   font-size: 1rem;
   font-weight: lighter;
   font-family: "Merriweather", Sans-Serif;
   text-transform: lowercase; }
 
-.tax-product-type .archive-product-content {
+.term-wear .archive-product-content, .term-eat .archive-product-content, .term-do .archive-product-content, .term-sleep .archive-product-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1248,17 +1248,17 @@ a:visited {
       justify-content: space-around;
   padding-top: 3rem; }
 
-.tax-product-type .item-grid {
+.term-wear .item-grid, .term-eat .item-grid, .term-do .item-grid, .term-sleep .item-grid {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
   max-width: 23%;
   border: 1px solid #e1e1e1;
   height: 310px; }
-  .tax-product-type .item-grid a img {
+  .term-wear .item-grid a img, .term-eat .item-grid a img, .term-do .item-grid a img, .term-sleep .item-grid a img {
     border-bottom: 5px solid #e1e1e1;
     height: 250px; }
 
-.tax-product-type .content-area {
+.term-wear .content-area, .term-eat .content-area, .term-do .content-area, .term-sleep .content-area {
   padding-bottom: 5rem; }
 
 .name-price {
