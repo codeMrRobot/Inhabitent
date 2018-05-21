@@ -516,7 +516,7 @@ a {
 
 .hfeed .site-header {
   background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 0;
+  border-bottom: 1px solid #e1e1e1;
   padding: .5rem 0;
   position: fixed;
   -webkit-transition: top .5s linear;
@@ -536,9 +536,6 @@ a {
     font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
-
-.site-header, .reverse-header {
-  border-bottom: 0; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1561,6 +1558,11 @@ a:visited {
 
 .page .content-area {
   padding-left: 0%; }
+
+.site-header.reverse-header {
+  background-color: transparent;
+  border-bottom: 0;
+  position: absolute; }
 
 .single.single-adventure .entry-header {
   height: auto;
