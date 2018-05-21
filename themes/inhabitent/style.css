@@ -1559,11 +1559,6 @@ a:visited {
 .page .content-area {
   padding-left: 0%; }
 
-.hfeed .site-header.reverse-header {
-  background-color: transparent;
-  border-bottom: 0;
-  position: absolute; }
-
 .single.single-adventure .entry-header {
   height: auto;
   width: 100vw;
