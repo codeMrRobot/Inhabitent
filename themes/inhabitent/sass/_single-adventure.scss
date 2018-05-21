@@ -1,8 +1,11 @@
-.single-adventure{
+.single.single-adventure{
 	.entry-header{
 		height:auto;
     width:100vw;
     text-align: center;
+  }
+  h1{
+    text-transform:uppercase;
   }
   .content-area{
     padding-left:0;
@@ -31,5 +34,10 @@
   }
   .social-buttons{
     margin-bottom:2rem;
+  }
+  .site-header.reverse-header{
+    background-color: transparent;
+    border-bottom: 0;
+    position: absolute;
   }
 }

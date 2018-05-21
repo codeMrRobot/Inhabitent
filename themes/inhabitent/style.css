@@ -516,7 +516,7 @@ a {
 
 .hfeed .site-header {
   background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 0;
   padding: .5rem 0;
   position: fixed;
   -webkit-transition: top .5s linear;
@@ -536,6 +536,9 @@ a {
     font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
+
+.site-header, .reverse-header {
+  border-bottom: 0; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1504,7 +1507,7 @@ a:visited {
   margin-right: 0; }
   .page-id-35 div#content.site-content div#primary.content-area {
     width: 100%;
-    padding-right: 0; }
+    padding-left: 0%; }
   .page-id-35 div#content.site-content div#secondary.widget-area {
     display: none; }
 
@@ -1527,7 +1530,6 @@ a:visited {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    height: 100vh;
     text-align: center;
     width: 100vw;
     -webkit-box-pack: center;
@@ -1544,17 +1546,36 @@ a:visited {
       margin-right: auto;
       color: #fff; }
 
-.single-adventure .entry-header {
+.site-main .about-banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/about-hero.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/about-hero.jpg");
+  width: 142%;
+  height: 125vh;
+  background-size: cover, cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page .content-area {
+  padding-left: 0%; }
+
+.single.single-adventure .entry-header {
   height: auto;
   width: 100vw;
   text-align: center; }
 
-.single-adventure .content-area {
+.single.single-adventure h1 {
+  text-transform: uppercase; }
+
+.single.single-adventure .content-area {
   padding-left: 0;
   padding-right: 0;
   width: 100%; }
 
-.single-adventure .entry-content {
+.single.single-adventure .entry-content {
   margin-left: auto;
   margin-right: auto;
   width: 850px;
@@ -1562,7 +1583,7 @@ a:visited {
   line-height: 1.5;
   max-width: 800px; }
 
-.single-adventure .entry-meta {
+.single.single-adventure .entry-meta {
   position: relative;
   color: #000;
   background-color: transparent;
@@ -1572,9 +1593,14 @@ a:visited {
   text-align: left;
   font-size: 1.5rem; }
 
-.single-adventure .entry-title {
+.single.single-adventure .entry-title {
   font-size: 3rem;
   margin-bottom: 0; }
 
-.single-adventure .social-buttons {
+.single.single-adventure .social-buttons {
   margin-bottom: 2rem; }
+
+.single.single-adventure .site-header.reverse-header {
+  background-color: transparent;
+  border-bottom: 0;
+  position: absolute; }
