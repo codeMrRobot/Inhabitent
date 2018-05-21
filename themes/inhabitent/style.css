@@ -1041,6 +1041,405 @@ object {
 a:visited {
   color: black; }
 
+.blog .adventure-read-more:hover, .blog .read-more:hover, .home .adventure-read-more:hover, .home .read-more:hover {
+  color: white;
+  background-color: #248A83;
+  border: 1px solid #248A83; }
+
+.home .adventure-read-more {
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  font-family: "Novecento", Sans-Serif; }
+
+.adv-read-more {
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  font-family: "Novecento", Sans-Serif; }
+  .adv-read-more a:visited {
+    color: white; }
+
+/* adventure grid */
+.adventures-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px; }
+  .adventures-wrapper .container:nth-child(1) {
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 1/3; }
+    .adventures-wrapper .container:nth-child(1) .adventure-entry img {
+      width: 100%;
+      height: 500px; }
+    .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title {
+      font-family: "Merriweather", Sans-Serif;
+      text-transform: capitalize; }
+      .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a {
+        font-size: 2.5rem; }
+      .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a:hover {
+        color: #f0e4d1; }
+  .adventures-wrapper .container:nth-child(2) {
+    position: relative;
+    grid-column: 3/5; }
+    .adventures-wrapper .container:nth-child(2) .adventure-entry img {
+      width: 100%;
+      height: 250px; }
+    .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title {
+      font-family: "Merriweather", Sans-Serif;
+      text-transform: capitalize; }
+      .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a {
+        font-size: 2.5rem; }
+      .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a:hover {
+        color: #f0e4d1; }
+  .adventures-wrapper .container:nth-child(3) {
+    position: relative; }
+    .adventures-wrapper .container:nth-child(3) .adventure-entry img {
+      height: 235px; }
+    .adventures-wrapper .container:nth-child(3) .adventure-entry a:hover {
+      color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(3) .adventure-entry .entry-title {
+      font-family: "Merriweather", Sans-Serif;
+      text-transform: capitalize; }
+  .adventures-wrapper .container:nth-child(4) {
+    position: relative; }
+    .adventures-wrapper .container:nth-child(4) .adventure-entry img {
+      height: 235px; }
+    .adventures-wrapper .container:nth-child(4) .adventure-entry a:hover {
+      color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(4) .adventure-entry .entry-title {
+      font-family: "Merriweather", Sans-Serif;
+      text-transform: capitalize; }
+  .adventures-wrapper .adventure-entry .adventure-info {
+    position: absolute;
+    top: 0;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: .75rem; }
+    .adventures-wrapper .adventure-entry .adventure-info .entry-title {
+      font-size: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+      text-align: left; }
+      .adventures-wrapper .adventure-entry .adventure-info .entry-title a {
+        color: white;
+        text-decoration: none; }
+
+/* product page */
+.post-type-archive .content-area {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.post-type-archive .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.post-type-archive .social-buttons {
+  padding-bottom: 3rem; }
+  .post-type-archive .social-buttons button[type="submit"] {
+    background-color: #fff;
+    border-color: black;
+    border-radius: 0;
+    height: 40px;
+    width: 140px; }
+    .post-type-archive .social-buttons button[type="submit"] :hover {
+      background-color: #248A83; }
+  .post-type-archive .social-buttons :before {
+    padding-right: 1rem; }
+
+.post-type-archive .archive-product-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 3rem; }
+
+.post-type-archive .item-grid {
+  -ms-flex-preferred-size: 22.5%;
+      flex-basis: 22.5%;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 1rem;
+  height: 310px; }
+
+.post-type-archive .type-product a img {
+  border-bottom: 5px solid #e1e1e1;
+  height: 250px; }
+
+.post-type-archive .page-header {
+  width: 100%;
+  text-align: center; }
+  .post-type-archive .page-header .page-title {
+    border-bottom: none;
+    font-family: "Novecento", Sans-Serif; }
+
+.post-type-archive .content-area {
+  padding-bottom: 5rem; }
+
+.post-type-archive .shop-category-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #e1e1e1;
+  font-family: "Novecento", Sans-Serif; }
+
+.post-type-archive .shop-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%; }
+  .post-type-archive .shop-category p a {
+    text-decoration: none;
+    color: #248A83;
+    font-size: 1.2rem;
+    text-transform: uppercase; }
+
+/* Taxonomy product page */
+.tax-product-type .content-area {
+  width: 100%; }
+
+.tax-product-type .page-header {
+  text-align: center;
+  border-bottom: 1px dashed #e1e1e1; }
+
+.tax-product-type .tax-page-title {
+  text-transform: uppercase;
+  font-family: "Novecento", Sans-Serif; }
+
+.tax-product-type .taxonomy-description {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: "Merriweather", Sans-Serif;
+  text-transform: lowercase; }
+
+.tax-product-type .archive-product-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 3rem; }
+
+.tax-product-type .item-grid {
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  max-width: 23%;
+  border: 1px solid #e1e1e1;
+  height: 310px; }
+  .tax-product-type .item-grid a img {
+    border-bottom: 5px solid #e1e1e1;
+    height: 250px; }
+
+.tax-product-type .content-area {
+  padding-bottom: 5rem; }
+
+.name-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap; }
+
+/* single product page */
+.product-template-default .entry-title {
+  font-family: "Novecento", Sans-Serif;
+  color: #d99054;
+  text-transform: uppercase; }
+
+.product-template-default .content-area {
+  width: 100%;
+  padding-bottom: 6rem; }
+
+.product-template-default .type-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8rem; }
+  .product-template-default .type-product div img {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+
+.product-template-default .single-product-wrapper {
+  padding-left: 3rem;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
+.product-template-default .entry-header img {
+  max-width: 500px;
+  height: 400px; }
+
+.product-template-default .entry-meta {
+  display: none; }
+
+.product-template-default .widget-area {
+  display: none; }
+
+.single-product-buttons {
+  color: #000;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  background: #fff;
+  border-radius: 0;
+  font-size: 1rem;
+  font-family: "Novecento", Sans-Serif; }
+  .single-product-buttons:hover {
+    background-color: #248A83;
+    border: 1px solid #248A83;
+    color: #fff; }
+  .single-product-buttons .fa {
+    padding-right: 1rem; }
+
+/* Search form */
+.search-form fieldset {
+  border: 0; }
+
+/* Search */
+.search-results .page-title {
+  font-family: "Novecento", Sans-Serif; }
+
+.search-results .type-product {
+  padding-top: 3rem; }
+
+.search-results .content-area {
+  padding-left: 5%; }
+
+.search-results h2 a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.search-results .search-pagination {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.search-results .page-numbers {
+  background-color: #248a83;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  padding: .5rem .75rem;
+  margin-right: .25rem;
+  text-decoration: none; }
+
+.search-results .category-recipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.search-results .entry-meta {
+  position: absolute;
+  left: -7px;
+  bottom: -33%;
+  background-color: transparent;
+  color: black;
+  padding: .5rem; }
+
+.search-results .post-5 .entry-header {
+  display: block;
+  height: auto;
+  text-align: left; }
+
+.search-results .post-5 .entry-summary {
+  display: none; }
+
+.search-results .category-how-tos .entry-meta {
+  bottom: -85%; }
+
+.search-results .category-how-tos .entry-summary {
+  padding-top: 1rem; }
+
+.search-results .page-header {
+  padding-top: 3rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e1e1e1; }
+
+.archive .p-bottom {
+  padding-bottom: 2rem; }
+
+.archive .page-header {
+  padding-top: 6rem; }
+
+.archive .page-title {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 1rem;
+  text-transform: uppercase; }
+
+.sorry-search {
+  margin-top: 8rem;
+  padding-left: 3rem; }
+
+/* 404 page */
+.error404 .content-area {
+  padding-left: 5%;
+  padding-top: 6rem; }
+
+.error404 .widget_recent_entries ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .error404 .widget_recent_entries ul li a {
+    text-decoration: none;
+    color: #248A83; }
+
+.error404 .widget_categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .error404 .widget_categories ul li a {
+    text-decoration: none;
+    color: #248A83; }
+
+.error404 .widget_archive {
+  padding-bottom: 3rem; }
+
+.error404 .archive-dropdown {
+  font-size: 1.15rem; }
+
+.error404 .page-content .search-toggle {
+  display: none; }
+
+.error404 .page-content .search-field {
+  width: 200px !important; }
+
+.page-template-default h1 {
+  font-family: "Novecento", Sans-Serif; }
+
 /*  FOOTER */
 .site-footer {
   background: url("../../images/dark-wood.png");
