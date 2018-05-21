@@ -1604,3 +1604,55 @@ a:visited {
   background-color: transparent;
   border-bottom: 0;
   position: absolute; }
+
+/* Adventure archive */
+.post-type-archive-adventure .site-main {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.post-type-archive-adventure .page-title {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 1px dashed #e1e1e1;
+  font-family: "Novecento", Sans-Serif; }
+
+.post-type-archive-adventure .entry-title {
+  font-size: 3.1rem;
+  color: #fff;
+  font-weight: 400;
+  background-color: transparent;
+  font-size: 2.5rem;
+  max-width: 100%;
+  font-family: "Merriweather", Sans-Serif;
+  margin-top: 4rem; }
+
+.post-type-archive-adventure .entry-title a:hover {
+  color: #f0e4d1; }
+
+.post-type-archive-adventure .adventure-grid {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 49%;
+          flex: 0 1 49%;
+  max-width: 49%; }
+
+.post-type-archive-adventure .entry-header img {
+  height: 500px;
+  width: 500px linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+
+.post-type-archive-adventure .read-more-wrapper {
+  position: absolute;
+  top: 50%;
+  padding-left: 1rem; }
+
+.post-type-archive-adventure .advbtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white; }
+
+.post-type-archive-adventure .advbtn:hover {
+  background-color: #248A83;
+  border: #248A83; }
