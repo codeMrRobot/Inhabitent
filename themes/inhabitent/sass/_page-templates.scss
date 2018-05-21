@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-t
-/* Front page */
+
+/* utility */
 
 .max-contain {
   max-width: 1120px;
@@ -10,16 +10,33 @@ t
   margin-right: auto;
 }
 
-
+/* Front page */
 .home,.page-template-page-about{
   .content-area{
     padding-left:0;
   }
 }  
 
-
 .home{
-  
+  .advbtn{
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+  }
+  .advreadmore{
+    padding-top:1rem;
+    padding-bottom:3rem;
+    .moreadventures{
+      background:$green;
+      padding-bottom:1rem;
+      border:none;
+      color:$main;
+    }
+  }  
+  h2{
+    text-transform: uppercase;
+  }
+
 	.content-area{
     width: 100%;
     padding-right:0;
@@ -27,7 +44,7 @@ t
 
   .site-main{
     .hero-banner{
-      background:linear-gradient(to bottom, rgba($color_black, 0.2), rgba($color_black, 0.2)), url("../../images/home-hero.jpg")no-repeat top;
+      background:linear-gradient(to bottom, rgba($color_black, 0.2), rgba($color_black, 0.2)), url("../../images/home-hero.jpg");
       width:100%;
       height:100vh;
       background-size:cover,cover;
@@ -40,72 +57,69 @@ t
       font-size:2rem;
       padding-top:1rem;
       padding-bottom:1rem;
-    } 
-  }
-}
-
-
-.journal-entries{
-  display:flex;
-  justify-content:space-between;
-  .journal-entry{
-    border:1px solid $lightgrey;
-    img{
-      height:250px;
-      width:360px;
-      border-bottom:5px solid $lightgrey;
-    }
+    }     
+  .journal-entries{
+    display:flex;
+    justify-content:space-between;
+    .journal-entry{
+      border:1px solid $lightgrey;
+      img{
+        height:250px;
+        width:360px;
+        border-bottom:5px solid $lightgrey;
+      }
+    }  
   }  
-}  
-.journal-info{
-display: flex;
-flex-direction: column-reverse;
-align-items: flex-start;
-width:300px;
-padding:.75rem;
-  .entry-title{
-    font-size: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-    text-align:left;
-    a{
-      color:$green;
-      text-decoration: none;
+  .journal-info{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  width:300px;
+  padding:.75rem;
+    .entry-title{
+      font-size: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+      text-align:left;
+      a{
+        color:$green;
+        text-decoration: none;
+      }
+    }
+    .journal-date{
+      font-size:0.75rem;
+    }
+  }    
+  .product-type-blocks{
+    font-size:0.95rem;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+  }
+  .product-type-block-wrapper{
+    flex-basis:23.5%;
+    max-width:23.5%;
+    border:1px solid $lightgrey;
+    border-top-width: 5px;
+    padding:1rem;
+    img{
+      height:65px; 
+    }
+    a.btn{
+      font-family:$headfont;
+      background:$green;
+      color:$main;
+      text-decoration:none;
+      text-transform: uppercase;
+      padding: .75rem 1.5rem;
     }
   }
-  .journal-date{
-    font-size:0.75rem;
+  .product-type-block-wrapper:hover
+  {
+    border:1px solid $orange; 
+    border-top-width:5px;
   }
-}    
-.product-type-blocks{
-  font-size:0.95rem;
-  display:flex;
-  justify-content: space-between;
-  text-align:center;
-}
-.product-type-block-wrapper{
-  flex-basis:23.5%;
-  max-width:23.5%;
-  border:1px solid $lightgrey;
-  border-top-width: 5px;
-  padding:1rem;
-  img{
-    height:65px; 
-  }
-  a.btn{
-    font-family:$headfont;
-    background:$green;
-    color:$main;
-    text-decoration:none;
-    text-transform: uppercase;
-    padding: .75rem 1.5rem;
-  }
-}
-.product-type-block-wrapper:hover
-{
-  border:1px solid $orange; 
-  border-top-width:5px;
-}
+}}
 
 .read-more{
 color:black;
@@ -118,4 +132,6 @@ font-family:$headfont;
 a:visited{
 color:black;
 }
+
+
 

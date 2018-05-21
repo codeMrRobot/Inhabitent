@@ -910,22 +910,40 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-t
+/* utility */
 .max-contain {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto; }
 
+/* Front page */
 .home .content-area, .page-template-page-about .content-area {
   padding-left: 0; }
+
+.home .advbtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white; }
+
+.home .advreadmore {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+  .home .advreadmore .moreadventures {
+    background: #248A83;
+    padding-bottom: 1rem;
+    border: none;
+    color: #fff; }
+
+.home h2 {
+  text-transform: uppercase; }
 
 .home .content-area {
   width: 100%;
   padding-right: 0; }
 
 .home .site-main .hero-banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/home-hero.jpg") no-repeat top;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/home-hero.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/home-hero.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/home-hero.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover,cover;
@@ -943,21 +961,21 @@ t
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-.journal-entries {
+.home .site-main .journal-entries {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .journal-entries .journal-entry {
+  .home .site-main .journal-entries .journal-entry {
     border: 1px solid #e1e1e1; }
-    .journal-entries .journal-entry img {
+    .home .site-main .journal-entries .journal-entry img {
       height: 250px;
       width: 360px;
       border-bottom: 5px solid #e1e1e1; }
 
-.journal-info {
+.home .site-main .journal-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -970,18 +988,18 @@ t
           align-items: flex-start;
   width: 300px;
   padding: .75rem; }
-  .journal-info .entry-title {
+  .home .site-main .journal-info .entry-title {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 0;
     text-align: left; }
-    .journal-info .entry-title a {
+    .home .site-main .journal-info .entry-title a {
       color: #248A83;
       text-decoration: none; }
-  .journal-info .journal-date {
+  .home .site-main .journal-info .journal-date {
     font-size: 0.75rem; }
 
-.product-type-blocks {
+.home .site-main .product-type-blocks {
   font-size: 0.95rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -991,16 +1009,16 @@ t
           justify-content: space-between;
   text-align: center; }
 
-.product-type-block-wrapper {
+.home .site-main .product-type-block-wrapper {
   -ms-flex-preferred-size: 23.5%;
       flex-basis: 23.5%;
   max-width: 23.5%;
   border: 1px solid #e1e1e1;
   border-top-width: 5px;
   padding: 1rem; }
-  .product-type-block-wrapper img {
+  .home .site-main .product-type-block-wrapper img {
     height: 65px; }
-  .product-type-block-wrapper a.btn {
+  .home .site-main .product-type-block-wrapper a.btn {
     font-family: "Novecento", Sans-Serif;
     background: #248A83;
     color: #fff;
@@ -1008,7 +1026,7 @@ t
     text-transform: uppercase;
     padding: .75rem 1.5rem; }
 
-.product-type-block-wrapper:hover {
+.home .site-main .product-type-block-wrapper:hover {
   border: 1px solid #d99054;
   border-top-width: 5px; }
 
