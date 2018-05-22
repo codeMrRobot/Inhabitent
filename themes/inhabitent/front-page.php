@@ -27,11 +27,11 @@ get_header(); ?>
     </div>
   </main>
 
-    <section class="product-info container max-contain">
+    <section class="product-info-container max-contain">
       <h2>shop stuff</h2>
       <?php
 					$terms = get_terms( array(
-							'taxonomy' => 'Product-Type',
+							'taxonomy' => 'product-type',
 							'hide_empty' => 0,
 					) );
 					if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :

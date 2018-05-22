@@ -24,7 +24,7 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 /**
  * Logo link */
 function inhabitent_starter_login_logo_url($url) {
-  return "http://localhost:8888/inhabitent";
+  return "http://localhost:3002/inhabitent";
 }
 add_filter('login_headerurl', 'inhabitent_starter_login_logo_url');
 
@@ -70,11 +70,24 @@ function inhabitent_dynamic_css(){
 	
 	wp_add_inline_style( 'tent-style', $hero_css);
 }
-add_action ( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
-function inhabitent_limit_archive_posts($query){
-if ( $query->is_archive ) {
-		$query->set( 'posts_per_page', 20) ;
+// add_action ( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
+// function inhabitent_limit_archive_posts($query){
+// if ( $query->is_archive ) {
+// 		$query->set( 'posts_per_page', 20) ;
+// }
+// return $query;
+// }
+// add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );
+
+function inhab_archives($query){
+	if(
+		is_post_type_archive('product')
+	)
+	{
+		$query->set('posts_per_page', 16);
+		$query->set('order', 'ASC');
+		$query->set('orderby', 'title');
+	}
 }
-return $query;
-}
-add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );
+
+add_action('pre_get_posts', 'inhab_archives');

@@ -961,21 +961,21 @@ object {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-.home .site-main .journal-entries {
+.journal-entries {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .home .site-main .journal-entries .journal-entry {
+  .journal-entries .journal-entry {
     border: 1px solid #e1e1e1; }
-    .home .site-main .journal-entries .journal-entry img {
+    .journal-entries .journal-entry img {
       height: 250px;
       width: 360px;
       border-bottom: 5px solid #e1e1e1; }
 
-.home .site-main .journal-info {
+.journal-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -988,18 +988,18 @@ object {
           align-items: flex-start;
   width: 300px;
   padding: .75rem; }
-  .home .site-main .journal-info .entry-title {
+  .journal-info .entry-title {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 0;
     text-align: left; }
-    .home .site-main .journal-info .entry-title a {
+    .journal-info .entry-title a {
       color: #248A83;
       text-decoration: none; }
-  .home .site-main .journal-info .journal-date {
+  .journal-info .journal-date {
     font-size: 0.75rem; }
 
-.home .site-main .product-type-blocks {
+.product-type-blocks {
   font-size: 0.95rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1009,16 +1009,16 @@ object {
           justify-content: space-between;
   text-align: center; }
 
-.home .site-main .product-type-block-wrapper {
+.product-type-block-wrapper {
   -ms-flex-preferred-size: 23.5%;
       flex-basis: 23.5%;
   max-width: 23.5%;
   border: 1px solid #e1e1e1;
   border-top-width: 5px;
   padding: 1rem; }
-  .home .site-main .product-type-block-wrapper img {
+  .product-type-block-wrapper img {
     height: 65px; }
-  .home .site-main .product-type-block-wrapper a.btn {
+  .product-type-block-wrapper a.btn {
     font-family: "Novecento", Sans-Serif;
     background: #248A83;
     color: #fff;
@@ -1026,7 +1026,7 @@ object {
     text-transform: uppercase;
     padding: .75rem 1.5rem; }
 
-.home .site-main .product-type-block-wrapper:hover {
+.product-type-block-wrapper:hover {
   border: 1px solid #d99054;
   border-top-width: 5px; }
 
@@ -1140,32 +1140,32 @@ a:visited {
         text-decoration: none; }
 
 /* product page */
-.post-type-archive .content-area {
+.content-area {
   width: 100%;
   margin-left: auto;
   margin-right: auto; }
 
-.post-type-archive .site-main {
+.site-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
-.post-type-archive .social-buttons {
+.social-buttons {
   padding-bottom: 3rem; }
-  .post-type-archive .social-buttons button[type="submit"] {
+  .social-buttons button[type="submit"] {
     background-color: #fff;
     border-color: black;
     border-radius: 0;
     height: 40px;
     width: 140px; }
-    .post-type-archive .social-buttons button[type="submit"] :hover {
+    .social-buttons button[type="submit"] :hover {
       background-color: #248A83; }
-  .post-type-archive .social-buttons :before {
+  .social-buttons :before {
     padding-right: 1rem; }
 
-.post-type-archive .archive-product-content {
+.archive-product-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1176,28 +1176,28 @@ a:visited {
           justify-content: space-evenly;
   padding-top: 3rem; }
 
-.post-type-archive .item-grid {
+.item-grid {
   -ms-flex-preferred-size: 22.5%;
       flex-basis: 22.5%;
   border: 1px solid #e1e1e1;
   margin-bottom: 1rem;
   height: 310px; }
 
-.post-type-archive .type-product a img {
+.type-product a img {
   border-bottom: 5px solid #e1e1e1;
   height: 250px; }
 
-.post-type-archive .page-header {
+.page-header {
   width: 100%;
   text-align: center; }
-  .post-type-archive .page-header .page-title {
+  .page-header .page-title {
     border-bottom: none;
     font-family: "Novecento", Sans-Serif; }
 
-.post-type-archive .content-area {
+.content-area {
   padding-bottom: 5rem; }
 
-.post-type-archive .shop-category-wrapper {
+.shop-category-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1208,7 +1208,7 @@ a:visited {
   border-bottom: 1px dashed #e1e1e1;
   font-family: "Novecento", Sans-Serif; }
 
-.post-type-archive .shop-category {
+.shop-category {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1216,7 +1216,7 @@ a:visited {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 30%; }
-  .post-type-archive .shop-category p a {
+  .shop-category p a {
     text-decoration: none;
     color: #248A83;
     font-size: 1.2rem;
@@ -1653,3 +1653,8 @@ a:visited {
 .post-type-archive-adventure .advbtn:hover {
   background-color: #248A83;
   border: #248A83; }
+
+.home h2 {
+  font-weight: 400;
+  margin-top: 24px;
+  text-align: center; }
