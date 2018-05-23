@@ -585,7 +585,7 @@ a {
 .main-navigation.toggled ul {
   display: block; }
 
-.fa-search {
+.fa-search:before {
   position: absolute; }
 
 @media screen and (min-width: 768px) {
