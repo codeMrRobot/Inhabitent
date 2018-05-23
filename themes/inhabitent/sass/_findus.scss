@@ -1,0 +1,25 @@
+.post-38 {
+
+  .main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  h1.entry-title {   
+    margin: 5rem 0 3rem 6rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;    
+  }
+
+  .map {
+    grid-row: 1 / 2;
+    margin-left: 6rem;
+  }
+
+  .content-area{
+    width:75%;
+    padding-left:0%;
+  }
+
+}

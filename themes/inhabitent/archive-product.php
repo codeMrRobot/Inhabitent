@@ -19,7 +19,7 @@ get_header(); ?>
 						'taxonomy' => 'product-type',
 						'hide_empty' => 0,
 				) );
-				if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
+				// if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
 			?>
 				<div class="shop-category-wrapper">
 					<div class="shop-category">
@@ -32,38 +32,39 @@ get_header(); ?>
        
 
 			<?php endif; ?>
-			</header>
-			<div class="archive-product-content">
-			<?php while ( have_posts() ) : the_post(); ?>
-			<div class="item-grid">
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				
-					<?php if ( has_post_thumbnail() ) : ?>
-						
+      </header>
+      
+      <div class = "archive-product-content">
+               <?php
+                   $args = array(
+                       'post_type' => 'product',
+                       'posts_per_page' => -1,
+                       'orderby'=> 'title',
+                       'order' => 'ASC',
+                   );
+                   $products = new WP_Query( $args );
+               ?>
+                   <?php if ( $products->have_posts() ) : ?>
+                       <?php while ( $products->have_posts() ) : $products->the_post(); ?>
+                       <div class = "item-grid product-post">
+                       <?php if ( has_post_thumbnail() ) : ?>
 						<a href="<?php echo get_the_permalink(); ?>">
 							<?php the_post_thumbnail( 'medium' ); ?>
 						</a>
 					<?php endif; ?>
-						<div class="name-price">
-						<p class="item-name"><?php echo get_the_title(); ?> ....</p>
-						<p class="price-meta"> ......
-							<?php echo CFS()->get('price');?>
-						</p>
-						</div>
-			</article><!-- #post-## -->
-			</div>
-			<?php endwhile; ?>
-
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
-		</div>
+                           <div class="item-grid product-info">
+                               <span><?php the_title(); ?></span>
+                               <span class = "aligncenter">&nbsp;</span>
+                               <span><?php echo "\$" . CFS()->get('price'); ?></span>
+                           </div>
+                       </div>
+                   <?php endwhile; ?>
+                   <?php wp_reset_postdata(); ?>
+               <?php else : ?>
+                   <h2>Nothing found!</h2>
+               <?php endif; ?>
+           </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 
 <?php get_footer(); ?>

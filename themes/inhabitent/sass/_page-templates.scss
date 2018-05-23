@@ -147,7 +147,7 @@ color:black;
     border:1px solid $green;
   }
 }
-.home{
+
 
   .adventure-read-more{
     color: white;
@@ -157,7 +157,7 @@ color:black;
     padding: .75rem 1.5rem;
     font-family:$headfont;
   }
-}
+
 .adv-read-more{
   color: white;
   text-transform: uppercase;
@@ -272,7 +272,7 @@ color:black;
 }
 
 /* product page */
-
+.page-id-31{
 .content-area{
   width:100%;
   @include center();
@@ -280,6 +280,10 @@ color:black;
 .site-main{
   display:flex;
   flex-wrap:wrap;
+}
+h1{
+  text-transform: uppercase;
+  color:black;
 }
 .social-buttons{
   padding-bottom:3rem;
@@ -349,6 +353,9 @@ color:black;
     text-transform: uppercase;
   }
 }
+}
+
+
 
 
 
