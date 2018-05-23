@@ -32,7 +32,7 @@ add_filter('login_headerurl', 'inhabitent_starter_login_logo_url');
 function my_login_logo() { ?>
 	<style type="text/css">
 			#login h1 a, .login h1 a {
-					background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/build/images/logos/inhabitent-logo-tent.svg');
+					background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg');
 	height:65px;
 	width:320px;
 	background-size: 320px 65px;
@@ -50,3 +50,13 @@ add_action('login_headerurl', 'logo_login_url');
 function inhabitent_logo_title(){
 	return 'inhabitent';
 }
+
+/**
+ * add search button to main menu
+ * source https://premium.wpmudev.org/blog/add-icons-wordpress-menus/ 05/17/2018
+ */
+function add_serch_button ( $items ) {
+	$items .= '<a class = "search-button"><span class = "fa fa-search"></span></a>';
+return $items;
+}
+add_filter('wp_nav_menu_items', 'add_serch_button');

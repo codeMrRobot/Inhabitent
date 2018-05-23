@@ -26,6 +26,7 @@ a {
 
 .search-bar-nav{
 	display:flex;
+	
 	.fa{
 		color:$green;
 		padding-top:7px;
@@ -40,6 +41,7 @@ a {
     transition: top .5s linear;
     width: 100%;
 		z-index: 3;
+		
 			.header-container{
 				display: flex;
 				justify-content: space-between;
@@ -137,6 +139,10 @@ a {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+}
+
+.fa-search{
+	position: absolute;
 }
 
 @media screen and (min-width: 768px) {

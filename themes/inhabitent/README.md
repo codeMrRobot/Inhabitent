@@ -1,21 +1,39 @@
-# RED Starter
+Inhabitent Camping Supply Co. Website
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+Utilizing WordPress, PHP, SCSS, and HTML, I have created a custom WordPress theme for the Inhabitent Camping Supply Co. website.
 
-## Installation
+The site contains many blog posts, products and descriptions, a custom homepage, an about page, and a find us page.
 
-### 1. Download me (don't clone me!)
+Author
 
-Then add me to your `wp-content` directory.
+Tony
 
-### 2. Rename the `redstarter-master` directory
+Based on
 
-Make sure that the theme directory name is project appropriate!
+RED Starter Theme (forked from Underscores)
+RED Widget Boilerplate
 
-### 3. Install the dev dependencies
+Dependencies
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+Run npm install inside theme directory to install the node modules for Gulp, etc.
 
-### 4. Update the proxy in `gulpfile.js`
+Technologies Used
 
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+*Wordpress
+*PHP
+*javascript
+*Plugins
+*Databases
+*Gulp
+*Jquery
+*HTML
+*CSS
+*SASS
+*Functionality:
+
+Built using WordPress CMS
+
+*Contain a custom static homepage, About page, Contact page (with a * functioning contact form)
+*Contain a blog post index page and a single view for blog posts
+*Contain a product archive, a product type archive page, and single template for products
+*Contain a search results page and 404 page
