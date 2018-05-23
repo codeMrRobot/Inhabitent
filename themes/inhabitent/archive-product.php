@@ -46,16 +46,17 @@ get_header(); ?>
                ?>
                    <?php if ( $products->have_posts() ) : ?>
                        <?php while ( $products->have_posts() ) : $products->the_post(); ?>
-                       <div class = "item-grid product-post">
+                       <div class="product-post">
                        <?php if ( has_post_thumbnail() ) : ?>
 						<a href="<?php echo get_the_permalink(); ?>">
-							<?php the_post_thumbnail( 'medium' ); ?>
+							<?php the_post_thumbnail( 'large' ); ?>
 						</a>
 					<?php endif; ?>
-                           <div class="item-grid product-info">
-                               <span><?php the_title(); ?></span>
+                           <div class="item-grid">
+                               <span class="product-text-info"><?php the_title(); ?></span>
                                <span class = "aligncenter">&nbsp;</span>
-                               <span><?php echo "\$" . CFS()->get('price'); ?></span>
+                               <span class="product-text-info"><?php echo "" . CFS()->get('price'); ?></span>
+                               <span class="dots">.............................</span>
                            </div>
                        </div>
                    <?php endwhile; ?>

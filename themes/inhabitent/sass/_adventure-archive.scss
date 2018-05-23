@@ -1,9 +1,13 @@
 /* Adventure archive */
 .post-type-archive-adventure{
   .site-main{
+    display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
   }
-
+  .content-area{
+    width:100%;
+  }
   .page-title{
     margin-top: 8rem;
     margin-bottom:3rem;

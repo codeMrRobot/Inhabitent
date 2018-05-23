@@ -15,6 +15,11 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 			<?php the_post_navigation(); ?>
+				<div>
+          <button type="submit" class="single-product-buttons"><i class="fa fa-facebook" aria-hidden="true"></i>LIKE</button>
+          <button type="submit" class="single-product-buttons"><i class="fa fa-twitter" aria-hidden="true"></i>TWEET</button>
+          <button type="submit" class="single-product-buttons"><i class="fa fa-pinterest" aria-hidden="true"></i>PIN</button>
+        </div>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
@@ -24,6 +29,7 @@ get_header(); ?>
 			?>
 
 		<?php endwhile; // End of the loop. ?>
+		
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

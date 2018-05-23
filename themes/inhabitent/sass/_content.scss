@@ -65,22 +65,7 @@
 		max-width:75%;
 		color:$main;
 		font-family:$headfont;
-	}
-	.comments-link{
-		a{
-			text-decoration: none;
-			color:$main;
-			padding-left:1rem;
-		}
-	}
-	.entry-footer {
-	.cat-links{
-		padding-right:1rem;
-			}
-	}
-	.entry-footer a{
-		text-decoration: none;
-		color:$green;
+		padding: 0 20px;
 	}
 }
 
@@ -146,29 +131,6 @@
 	display: none;
 }
 
-/* Comments */
-.comment-content a {
-	word-wrap: break-word;
-}
-
-.bypostauthor {
-	display: block;
-}
-
-.blog{
-	.post-140{
-	padding-top:15%;
-	}
-}
-
-.single-post{
-	.post-140{
-		padding-top:15%;
-			.entry-title{
-				top:0;
-			}
-	}
-}
 
 .single-format-standard{
 	.social-buttons{
