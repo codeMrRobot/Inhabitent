@@ -1540,7 +1540,8 @@ a:visited {
       font-size: 3rem;
       margin-left: auto;
       margin-right: auto;
-      color: #fff; }
+      color: #fff;
+      margin-top: 25rem; }
 
 .site-main .about-banner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/about-hero.jpg");
