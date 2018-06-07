@@ -39,8 +39,8 @@
 
 ## ScreenShots
 
-![](screenshots/home.png)
-![](screenshots/shopstuff.png)
-![](screenshots/adventure.png)
-![](screenshots/shop.png)
-![](screenshots/product.png)
+![](inhabitent/themes/screenshots/home.png)
+![](inhabitent/themes/screenshots/shopstuff.png)
+![](inhabitent/themes/screenshots/adventure.png)
+![](inhabitent/themes/screenshots/shop.png)
+![](inhabitent/themes/screenshots/product.png)
