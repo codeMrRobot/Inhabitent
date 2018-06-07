@@ -36,3 +36,11 @@
 * Contain a blog post index page and a single view for blog posts
 * Contain a product archive, a product type archive page, and single template for    products
 * Contain a search results page and 404 page
+
+## ScreenShots
+
+![](screenshots/home.png)
+![](screenshots/shopstuff.png)
+![](screenshots/adventure.png)
+![](screenshots/shop.png)
+![](screenshots/product.png)
