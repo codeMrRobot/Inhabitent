@@ -10,6 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+			
+
+
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
@@ -19,7 +22,8 @@ get_header(); ?>
           <button type="submit" class="single-product-buttons"><i class="fa fa-facebook" aria-hidden="true"></i>LIKE</button>
           <button type="submit" class="single-product-buttons"><i class="fa fa-twitter" aria-hidden="true"></i>TWEET</button>
           <button type="submit" class="single-product-buttons"><i class="fa fa-pinterest" aria-hidden="true"></i>PIN</button>
-        </div>
+				</div>
+				
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.

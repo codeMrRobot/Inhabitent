@@ -1,39 +1,38 @@
-Inhabitent Camping Supply Co. Website
+## Inhabitent Camping Supply Co. Website
 
-Utilizing WordPress, PHP, SCSS, and HTML, I have created a custom WordPress theme for the Inhabitent Camping Supply Co. website.
+* Utilizing WordPress, PHP, SCSS, and HTML, I have created a custom WordPress       theme for the Inhabitent Camping Supply Co. website.
+ The site contains many blog posts, products and descriptions, a custom homepage, an about page, and a find us page.
 
-The site contains many blog posts, products and descriptions, a custom homepage, an about page, and a find us page.
+## Author
 
-Author
+* Tony
 
-Tony
+* Based on
 
-Based on
+* RED Starter Theme (forked from Underscores)
+* RED Widget Boilerplate
 
-RED Starter Theme (forked from Underscores)
-RED Widget Boilerplate
+## Dependencies
 
-Dependencies
+* Run npm install inside theme directory to install the node modules for Gulp, etc.
 
-Run npm install inside theme directory to install the node modules for Gulp, etc.
+## Technologies Used
 
-Technologies Used
+* Wordpress
+* PHP
+* javascript
+* Plugins
+* Databases
+* Gulp
+* Jquery
+* HTML
+* CSS
+* SASS
+* Functionality:
 
-*Wordpress
-*PHP
-*javascript
-*Plugins
-*Databases
-*Gulp
-*Jquery
-*HTML
-*CSS
-*SASS
-*Functionality:
+## Built using WordPress CMS
 
-Built using WordPress CMS
-
-*Contain a custom static homepage, About page, Contact page (with a * functioning contact form)
-*Contain a blog post index page and a single view for blog posts
-*Contain a product archive, a product type archive page, and single template for products
-*Contain a search results page and 404 page
+* Contain a custom static homepage, About page, Contact page (with a * functioning   contact form)
+* Contain a blog post index page and a single view for blog posts
+* Contain a product archive, a product type archive page, and single template for    products
+* Contain a search results page and 404 page
