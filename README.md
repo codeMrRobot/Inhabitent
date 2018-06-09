@@ -5,12 +5,10 @@
 
 ## Author
 
-* Tony
+ Tony
+ Based on RED Starter Theme (forked from Underscores) RED Widget Boilerplate
 
-* Based on
 
-* RED Starter Theme (forked from Underscores)
-* RED Widget Boilerplate
 
 ## Dependencies
 
