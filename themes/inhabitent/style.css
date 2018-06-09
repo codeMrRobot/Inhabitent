@@ -1671,7 +1671,8 @@ a:visited {
   margin: 5rem 0 3rem 6rem;
   text-transform: uppercase;
   font-size: 2.5rem;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 0rem; }
 
 .page-id-38 h2 {
   clear: both;
