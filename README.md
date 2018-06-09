@@ -39,4 +39,4 @@
 
 ## ScreenShots
 
-<img src="screenshots/front.png" width="150px"><img src="screenshots/shop.png" width="150px"><img src="screenshots/single.png" width="150px"><img src="screenshots/journal.png" width="150px"><img src="screenshots/jentry.png" width="150px"><img src="screenshots/about.png" width="150px"><img src="screenshots/find.png" width="150px">
+<img src="themes/inhabitent/screenshots/front.png" width="150px"><img src="themes/inhabitent/screenshots/shop.png" width="150px"><img src="themes/inhabitent/screenshots/single.png" width="150px"><img src="themes/inhabitent/screenshots/journal.png" width="150px"><img src="themes/inhabitent/screenshots/jentry.png" width="150px"><img src="themes/inhabitent/screenshots/about.png" width="150px"><img src="themes/inhabitent/screenshots/find.png" width="150px">
