@@ -25,7 +25,7 @@ get_header(); ?>
 				<?php
 					get_template_part( 'template-parts/content' );
 				?>
-				<p class="p-bottom"><a href="<?php the_permalink(); ?>" class="read-more">Read More →</a></p>
+				
 
 			<?php endwhile; ?>
 
