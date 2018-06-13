@@ -56,7 +56,7 @@ get_header(); ?>
                                <span class="product-text-info"><?php the_title(); ?></span>
                                <span class = "aligncenter">&nbsp;</span>
                                <span class="product-text-info"><?php echo "" . CFS()->get('price'); ?></span>
-                               <span class="dots">.............................</span>
+                               <span class="dots">........................................</span>
                            </div>
                        </div>
                    <?php endwhile; ?>
