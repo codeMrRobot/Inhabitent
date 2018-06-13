@@ -531,7 +531,8 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 4%;
+    margin-top: 1%;
     font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
@@ -1688,7 +1689,8 @@ a:visited {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 10%;
-  padding-right: 10%; }
+  padding-right: 4%;
+  margin-top: 1%; }
 
 .page-id-38 .content-area {
   width: 75%;
