@@ -594,7 +594,8 @@ a {
 
 .fa-search:before {
   position: absolute;
-  margin-top: -0.9rem; }
+  margin-top: -0.9rem;
+  color: #248A83; }
 
 @media screen and (min-width: 768px) {
   .menu-toggle {
@@ -1694,8 +1695,8 @@ a:visited {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin-top: 1%; }
 
 .page-id-38 .content-area {

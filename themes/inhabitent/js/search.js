@@ -1,9 +1,9 @@
 jQuery(document).ready(function($) {
 
-    var heroHeight = $('.hero-banner').height();
+    var heroHeight = $('.hero-banner', '.about-banner').height();
 
     // add inverse header class to pages with hero image
-    if ($('div').hasClass('.hero-banner') && $(window).scrollTop() <= heroHeight) {
+    if ($('div').hasClass('.hero-banner','.about-banner') && $(window).scrollTop() <= heroHeight) {
         $('header').addClass('reverse-header');
     }
 
