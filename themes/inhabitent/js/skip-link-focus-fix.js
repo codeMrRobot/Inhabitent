@@ -42,3 +42,51 @@
 
 
 
+
+$(document).ready(function() {
+  // expand search bar in navigation
+  $('.main-navigation')
+    .find('.search-form')
+    .hide();
+
+  $('.search-button').on('click', function() {
+    $('.main-navigation')
+      .find('.search-form')
+      .animate({ width: 'toggle' });
+    $('.main-navigation')
+      .find('.search-field')
+      .focus();
+  });
+
+  $('.main-navigation')
+    .find('.search-form')
+    .on('focusout', function() {
+      if (
+        !$(this)
+          .find('.search-field')
+          .val()
+      ) {
+        $('.main-navigation')
+          .find('.search-form')
+          .animate({ width: 'toggle' });
+      }
+    });
+
+  var heroHeight = $('.hero-banner').height();
+  // add reverse header class to pages with hero image
+  // Instead of doing ($('div')) // <--- add a class and target the class the class is (.hero-banner
+  if ($('div').hasClass('hero-banner') && $(window).scrollTop() <= heroHeight) {
+    $('header').addClass('reverse-header');
+  }
+
+  // remove inverse header class on scroll
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= heroHeight) {
+      $('header').removeClass('reverse-header');
+    } else {
+      $('header').addClass('reverse-header');
+    }
+  });
+});
