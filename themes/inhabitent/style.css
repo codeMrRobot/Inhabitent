@@ -746,7 +746,7 @@ a {
     text-decoration: none; }
 
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
-  padding-left: 10%; }
+  padding-left: 5%; }
 
 .hfeed {
   display: -webkit-box;
