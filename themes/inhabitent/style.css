@@ -497,8 +497,8 @@ input {
 /* Links */
 a {
   color: royalblue; }
-  a:visited {
-    color: #fff; }
+  /* a:visited {
+    color: #fff; } */
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -1026,8 +1026,6 @@ object {
   padding: .75rem 1.5rem;
   font-family: "Novecento", Sans-Serif; }
 
-a:visited {
-  color: #fff; }
 
 .blog .adventure-read-more:hover, .blog .read-more:hover, .home .adventure-read-more:hover, .home .read-more:hover {
   color: white;

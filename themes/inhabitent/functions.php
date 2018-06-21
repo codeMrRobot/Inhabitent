@@ -110,9 +110,7 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/extras.php';
 
-/**load all the scripts */
-// require get_template_directory() . '/inc/enqueue.php';
-// require get_template_directory() . '/inc/sidebar.php';
+
 
 
 
